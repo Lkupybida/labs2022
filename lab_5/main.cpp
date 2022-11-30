@@ -1,5 +1,4 @@
-#ifndef SNEAKERS_H
-#define SNEAKERS_H
+
 #include <iostream>
 #include "string.h"
 using namespace std;
@@ -62,7 +61,7 @@ void Sneakers::giveSneaker()
     cout << "Quantity: " << quantity << endl;
     cout << "Number of sales: " << numberOfSales << endl;
 }
-#endif
+
 class SportsShoesShop
 {
     friend class Sneakers;
